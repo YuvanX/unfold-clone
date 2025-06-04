@@ -1,3 +1,4 @@
+import { Beyond } from "@/components/ui/beyond";
 import { HeroDescription } from "@/components/ui/hero-description";
 import { HeroSection } from "@/components/ui/hero-section";
 import { Jaw } from "@/components/ui/jaw";
@@ -15,6 +16,7 @@ export default function Home() {
       <SafePal />
       <Partner />
       <Jaw />
+      <Beyond />
     </div>
   );
 }
