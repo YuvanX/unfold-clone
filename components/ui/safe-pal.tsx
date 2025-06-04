@@ -1,8 +1,8 @@
-import Image from "next/image";
+
 
 export const SafePal = () => {
   return (
-    <div className="mx-20 min-h-screen">
+    <div className="min-h-screen">
       <div className="bg-black rounded-[40px] p-10">
         <div className="text-9xl font-fk-display text-white">Safe Pal</div>
         <div className="text-xl text-white font-semibold font-fk-grotesk">

@@ -7,18 +7,19 @@ import { NavBar } from "@/components/ui/navbar";
 import { Partner } from "@/components/ui/partners";
 import { SafePal } from "@/components/ui/safe-pal";
 
-
 export default function Home() {
   return (
-    <div className="bg-[#E8F0F9] min-h-screen">
-      <NavBar />
-      <HeroSection />
-      <HeroDescription />
-      <SafePal />
-      <Partner />
-      <Jaw />
-      <Beyond />
-      <Grid />
+    <div>
+      <div className="bg-[#E8F0F9] px-20 rounded-b-[60px]">
+        <NavBar />
+        <HeroSection />
+        <HeroDescription />
+        <SafePal />
+        <Partner />
+        <Jaw />
+        <Beyond />
+        <Grid />
+      </div>
     </div>
   );
 }

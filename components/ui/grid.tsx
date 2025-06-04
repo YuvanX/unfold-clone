@@ -1,6 +1,6 @@
 export const Grid = () => {
   return (
-    <div className=" flex gap-x-8 text-black mx-20">
+    <div className=" flex gap-x-8 text-black">
       <div className="bg-[#32F6C7] flex flex-col rounded-[40px] p-20 justify-between max-w-lg">
         <img
           src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63e0839dd3e9be14a3914ebf_you%20first.svg"

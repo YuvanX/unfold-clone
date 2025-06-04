@@ -1,6 +1,6 @@
 export const HeroDescription = () => {
   return (
-    <div className="flex justify-between  px-20 text-black h-40 my-20">
+    <div className="flex justify-between text-black h-40 my-20">
       <div className="flex flex-col justify-between">
         <div className="flex gap-x-4 items-centern">
           <div className="w-8 h-8">
