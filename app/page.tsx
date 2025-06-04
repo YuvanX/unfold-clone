@@ -1,4 +1,5 @@
 import { Beyond } from "@/components/ui/beyond";
+import { Grid } from "@/components/ui/grid";
 import { HeroDescription } from "@/components/ui/hero-description";
 import { HeroSection } from "@/components/ui/hero-section";
 import { Jaw } from "@/components/ui/jaw";
@@ -17,6 +18,7 @@ export default function Home() {
       <Partner />
       <Jaw />
       <Beyond />
+      <Grid />
     </div>
   );
 }
