@@ -1,8 +1,10 @@
+import { About } from "@/components/ui/about";
 import { Beyond } from "@/components/ui/beyond";
 import { Grid } from "@/components/ui/grid";
 import { HeroDescription } from "@/components/ui/hero-description";
 import { HeroSection } from "@/components/ui/hero-section";
 import { Jaw } from "@/components/ui/jaw";
+import { LetsChat } from "@/components/ui/lets-chat";
 import { NavBar } from "@/components/ui/navbar";
 import { Partner } from "@/components/ui/partners";
 import { SafePal } from "@/components/ui/safe-pal";
@@ -10,7 +12,7 @@ import { SafePal } from "@/components/ui/safe-pal";
 export default function Home() {
   return (
     <div>
-      <div className="bg-[#E8F0F9] px-20 rounded-b-[60px]">
+      <div className="bg-[#E8F0F9] px-20 pb-20 rounded-b-[60px]">
         <NavBar />
         <HeroSection />
         <HeroDescription />
@@ -20,6 +22,8 @@ export default function Home() {
         <Beyond />
         <Grid />
       </div>
+      <About />
+      <LetsChat />
     </div>
   );
 }
