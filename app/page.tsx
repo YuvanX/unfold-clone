@@ -6,6 +6,7 @@ import { HeroSection } from "@/components/ui/hero-section";
 import { Jaw } from "@/components/ui/jaw";
 import { LetsChat } from "@/components/ui/lets-chat";
 import { NavBar } from "@/components/ui/navbar";
+import { Online } from "@/components/ui/online";
 import { Partner } from "@/components/ui/partners";
 import { SafePal } from "@/components/ui/safe-pal";
 
@@ -24,6 +25,7 @@ export default function Home() {
       </div>
       <About />
       <LetsChat />
+      <Online />
     </div>
   );
 }
