@@ -1,5 +1,6 @@
 import { About } from "@/components/ui/about";
 import { Beyond } from "@/components/ui/beyond";
+import { Footer } from "@/components/ui/footer";
 import { Grid } from "@/components/ui/grid";
 import { HeroDescription } from "@/components/ui/hero-description";
 import { HeroSection } from "@/components/ui/hero-section";
@@ -12,7 +13,7 @@ import { SafePal } from "@/components/ui/safe-pal";
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative">
       <div className="bg-[#E8F0F9] px-20 pb-20 rounded-b-[60px]">
         <NavBar />
         <HeroSection />
@@ -26,6 +27,7 @@ export default function Home() {
       <About />
       <LetsChat />
       <Online />
+      {/* <Footer /> */}
     </div>
   );
 }
