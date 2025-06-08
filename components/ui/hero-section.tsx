@@ -17,9 +17,11 @@ export const HeroSection = () => {
           <span className="inline-block align-middle w-[550px] h-[250px] pt-1.5 ml-8 my-2">
             <video
               className="w-full h-full object-cover rounded-full"
-              src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4%2F6657fa4d1432e66c43c27103_tK80bh-transcode.mp4"  loop autoPlay
-            > </video>
-           
+              src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4%2F6657fa4d1432e66c43c27103_tK80bh-transcode.mp4"
+              loop
+              autoPlay
+            >
+            </video>
           </span>
           and explores.
         </div>

@@ -1,8 +1,10 @@
+import { Wavy } from "./wavy";
+
 export const HeroDescription = () => {
   return (
-    <div className="flex justify-between text-black h-40 my-20">
+    <div className="flex justify-between text-black h-40 mt-20 mb-32">
       <div className="flex flex-col justify-between">
-        <div className="flex gap-x-4 items-centern">
+        <div className="flex gap-x-4 items-center">
           <div className="w-8 h-8">
             <svg
               width=" 100%"
@@ -54,11 +56,17 @@ export const HeroDescription = () => {
           <div className="font-fk-display text-xl">HQ: 10:37 PM EST</div>
           <div className="text-sm font-fk-grotesk">Servicing Earth</div>
         </div>
-        <div className="max-w-md font-fk-grotesk font-medium text-xl">Turn bold ideas into impactful brand experiences with the handiwork and help of our collective bunch.</div>
+        <div className="max-w-md font-fk-grotesk font-medium text-xl">
+          Turn bold ideas into impactful brand experiences with the handiwork
+          and help of our collective bunch.
+        </div>
       </div>
       <div>
-        <div className="text-5xl font-medium font-fk-display max-w-2xl text-left">
-            Your company is ready for big moves and we are here for it.
+        <div className="text-5xl/16 font-medium font-fk-display max-w-2xl text-left relative">
+          Your company is ready for big moves and we are here for it.
+          {/* <div className="absolute top-18 text-[#9071FB]">
+            <Wavy />
+          </div> */}
         </div>
       </div>
     </div>
