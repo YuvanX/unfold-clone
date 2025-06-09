@@ -15,7 +15,7 @@ import { SafePal } from "@/components/ui/safe-pal";
 export default function Home() {
   return (
     <div className="relative overflow-hidden">
-      <div className="bg-[#E8F0F9]  pb-20 rounded-b-[60px] no-scrollbar">
+      <div className="bg-[#E8F0F9] pb-5 xl:pb-20 rounded-2xl xl:rounded-b-[60px] no-scrollbar">
         <NavBar />
         <HeroSection />
         <HeroDescription />
