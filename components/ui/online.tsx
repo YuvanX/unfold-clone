@@ -1,6 +1,6 @@
 export const Online = () => {
   return (
-    <div className="mx-40 mt-20">
+    <div className="mx-50 mt-20">
       <button className="flex items-center px-5 py-5 text-white bg-[#21242C] rounded-full gap-x-3">
         <div className="w-8 h-8">
           <svg

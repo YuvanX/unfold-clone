@@ -14,8 +14,8 @@ export const Banner = ({ text, className }: { text: string[], className?: string
         className="flex items-center gap-x-10 font-fk-display whitespace-nowrap"
       >
         {text &&
-          [...text, ...text].map((t, i) => (
-            <span key={i}>{t}</span>
+          [...text, ...text].map((t, idx) => (
+            <span key={idx}>{t}</span>
           ))}
       </motion.div>
     </div>

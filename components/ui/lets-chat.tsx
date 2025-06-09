@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export const LetsChat = () => {
   const [isHovered, setIsHovered] = useState(false);
-
+  
   return (
     <m.div
       whileHover={{ scale: 1.04, backgroundColor: "#32f6c7" }}
@@ -13,6 +13,7 @@ export const LetsChat = () => {
       }}
       onHoverStart={() => setIsHovered(true)}
       onHoverEnd={() => setIsHovered(false)}
+      
       className="bg-[#f6fa5e] rounded-[40px] flex items-center justify-between p-20 text-black font-fk-display mx-20 cursor-pointer relative"
     >
       <m.div className="leading-50">
