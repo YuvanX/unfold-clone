@@ -30,7 +30,7 @@ export default function Home() {
         <Grid />
       </div>
       <Banner
-        className="text-white !bg-transparent text-9xl"
+        className="text-white !bg-transparent text-[42px] xl:text-9xl"
         text={["We make things more yummy.", "We make things more yummy."]}
       />
       <About />
