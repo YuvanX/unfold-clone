@@ -22,12 +22,13 @@ export default function Home() {
         <SafePal />
         <Partner />
         <div className="!px-0">
-          <Banner text={["more yummy", "you first", "cutting edge", "hide nothing","more yummy", "you first", "cutting edge", "hide nothing","more yummy", "you first", "cutting edge", "hide nothing",]} />
+          <Banner className="text-black" text={["more yummy", "you first", "cutting edge", "hide nothing"]} />
         </div>
         <Jaw />
         <Beyond />
         <Grid />
       </div>
+      <Banner className="text-white !bg-transparent text-9xl" text={["We make things more yummy.", "We make things more yummy."]} />
       <About />
       <LetsChat />
       <Online />

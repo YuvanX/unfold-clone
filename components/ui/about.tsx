@@ -1,7 +1,7 @@
 export const About = () => {
   return (
     <div className="flex text-white px-52  justify-between my-20 gap-x-32">
-      <div className="flex flex-col font-fk-display text-5xl font-medium max-w-4xl text-start">
+      <div className="flex flex-col font-fk-display text-5xl/14 font-medium max-w-4xl text-start">
         <div className="mb-10 mt-5">
           We’re Unfold. A collective bunch working on incredible projects and
           building enduring partnerships that extend well beyond the
