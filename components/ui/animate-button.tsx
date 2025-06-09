@@ -18,17 +18,17 @@ export const CustomButton = () => {
         <path
           d="M65.0781 81.0233C65.0781 58.9191 82.9972 41 105.101 41"
           stroke="currentColor"
-          stroke-width="5"
+          strokeWidth="5"
         ></path>
         <path
           d="M65.0781 0.97666C65.0781 23.0809 82.9972 41 105.101 41"
           stroke="currentColor"
-          stroke-width="5"
+          strokeWidth="5"
         ></path>
         <path
           d="M99.8203 41L0.894692 41"
           stroke="currentColor"
-          stroke-width="5"
+          strokeWidth="5"
         ></path>
       </motion.svg>
     </div>

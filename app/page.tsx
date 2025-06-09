@@ -14,8 +14,8 @@ import { SafePal } from "@/components/ui/safe-pal";
 
 export default function Home() {
   return (
-    <div className="relative  overflow-hidden">
-      <div className="bg-[#E8F0F9]  pb-20 rounded-b-[60px]">
+    <div className="relative overflow-hidden">
+      <div className="bg-[#E8F0F9]  pb-20 rounded-b-[60px] no-scrollbar">
         <NavBar />
         <HeroSection />
         <HeroDescription />
@@ -23,7 +23,7 @@ export default function Home() {
         <Partner />
         <Banner
           className="text-black"
-          text={["more yummy", "you first", "cutting edge", "hide nothing"]}
+          text={["more yummy", "you first", "cutting edge", "hide nothing","more yummy", "you first", "cutting edge", "hide nothing"]}
         />
         <Jaw />
         <Beyond />
