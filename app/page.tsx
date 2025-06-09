@@ -1,4 +1,5 @@
 import { About } from "@/components/ui/about";
+import { Banner } from "@/components/ui/banner";
 import { Beyond } from "@/components/ui/beyond";
 import { Footer } from "@/components/ui/footer";
 import { Grid } from "@/components/ui/grid";
@@ -14,12 +15,15 @@ import { SafePal } from "@/components/ui/safe-pal";
 export default function Home() {
   return (
     <div className="relative">
-      <div className="bg-[#E8F0F9] px-20 pb-20 rounded-b-[60px]">
+      <div className="bg-[#E8F0F9]  pb-20 rounded-b-[60px]">
         <NavBar />
         <HeroSection />
         <HeroDescription />
         <SafePal />
         <Partner />
+        <div className="!px-0">
+          <Banner text={["more yummy", "you first", "cutting edge", "hide nothing","more yummy", "you first", "cutting edge", "hide nothing","more yummy", "you first", "cutting edge", "hide nothing",]} />
+        </div>
         <Jaw />
         <Beyond />
         <Grid />

@@ -1,9 +1,9 @@
-
+import { CustomButton } from "./animate-button";
 
 export const SafePal = () => {
   return (
-    <div className="min-h-screen">
-      <div className="bg-black rounded-[40px] p-10">
+    <div className="min-h-screen px-20">
+      <div className="bg-black rounded-[40px] p-10 relative">
         <div className="text-9xl font-fk-display text-white">Safe Pal</div>
         <div className="text-xl text-white font-semibold font-fk-grotesk">
           Making your crypto experiences safe and fun
@@ -24,14 +24,16 @@ export const SafePal = () => {
             />
           </div>
           <div className="max-w-[15%] h-[605px]">
-                 <img
+            <img
               src="https://cdn.prod.website-files.com/63dffdbf1693d14a2308d481/66566f3a57dda519020fda82_lamar.png"
               className="rounded-4xl w-full h-full object-cover"
               alt="solana image"
             />
           </div>
         </div>
+        <div className="absolute bottom-20 left-1/2"><CustomButton /></div>
       </div>
     </div>
   );
 };
+

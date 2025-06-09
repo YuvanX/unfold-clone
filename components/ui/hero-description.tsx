@@ -2,7 +2,7 @@ import { Wavy } from "./wavy";
 
 export const HeroDescription = () => {
   return (
-    <div className="flex justify-between text-black h-40 mt-20 mb-32">
+    <div className="flex justify-between text-black h-40 mt-20 mb-32 px-20">
       <div className="flex flex-col justify-between">
         <div className="flex gap-x-4 items-center">
           <div className="w-8 h-8">
@@ -62,7 +62,7 @@ export const HeroDescription = () => {
         </div>
       </div>
       <div>
-        <div className="text-5xl/16 font-medium font-fk-display max-w-2xl text-left relative">
+        <div className="text-5xl/15 font-medium font-fk-display max-w-[590px] text-left relative">
           Your company is ready for big moves and we are here for it.
           {/* <div className="absolute top-18 text-[#9071FB]">
             <Wavy />

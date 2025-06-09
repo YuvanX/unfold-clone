@@ -1,6 +1,6 @@
 export const Partner = () => {
-    return <div className="min-h-screen text-black bg-white rounded-[40px]">
-        <div className="flex items-center px-20 py-10">
+    return <div className="min-h-screen text-black bg-white rounded-[40px] mx-20">
+        <div className="flex items-center justify-between px-20 py-10">
             <div className="flex flex-col h-[800px]  justify-between">
                 <div className="capitalize text-9xl font-fk-display font-medium">friends & partners</div>
                 <div className="flex gap-x-20">
@@ -18,8 +18,8 @@ export const Partner = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                image
+            <div className="bg-[#212422] min-w-[600px] min-h-[900px] rounded-[40px]">
+               
             </div>
         </div>
     </div>

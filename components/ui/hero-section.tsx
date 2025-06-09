@@ -1,7 +1,7 @@
 export const HeroSection = () => {
   return (
-    <div className="min-h-screen">
-      <div className="flex justify-between items-center text-black pl-2">
+    <div className="min-h-screen px-20">
+      <div className="flex justify-between items-center text-black  pl-2">
         <img
           src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63de243e03e95f5335d7f350_logo.svg"
           alt="unfold_logo"
