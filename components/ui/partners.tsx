@@ -6,7 +6,7 @@ export const Partner = () => {
   const { scrollYProgress } = useScroll();
 
   const y1 = useTransform(scrollYProgress, [0, 1], [0, -900])
-  const y2 = useTransform(scrollYProgress, [0, 1], [0, 200])
+  const y2 = useTransform(scrollYProgress, [0, 1], [0, 900])
   const y3 = useTransform(scrollYProgress, [0, 1], [0, -900])
   const y4 = useTransform(scrollYProgress, [0, 1], [0, 900])
 

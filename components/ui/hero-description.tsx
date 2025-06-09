@@ -1,11 +1,9 @@
-import { Wavy } from "./wavy";
-
 export const HeroDescription = () => {
   return (
-    <div className="flex justify-between text-black h-40 mt-20 mb-32 px-20">
+    <div className="flex flex-col xl:flex-row xl:justify-between text-black h-40 mb-22 xl:mb-32 px-4 xl:mt-20 xl:px-20">
       <div className="flex flex-col justify-between">
-        <div className="flex gap-x-4 items-center">
-          <div className="w-8 h-8">
+        <div className="flex flex-col gap-y-2 items-center xl:flex-row xl:gap-x-4">
+          <div className="w-6 h-6 xl:w-8 xl:h-8">
             <svg
               width=" 100%"
               height=" 100%"
@@ -53,20 +51,22 @@ export const HeroDescription = () => {
               </defs>
             </svg>
           </div>
-          <div className="font-fk-display text-xl">HQ: 10:37 PM EST</div>
-          <div className="text-sm font-fk-grotesk">Servicing Earth</div>
+          <div className="font-fk-display text-xl tracking-tighter xl:tracking-normal">
+            <span className="text-xs xl:text-xl">HQ:</span> 10:37 PM{" "}
+            <span className="text-sm xl:text-xl">EST</span>
+          </div>
+          <div className="text-xs xl:text-sm font-fk-grotesk">
+            Servicing Earth
+          </div>
         </div>
-        <div className="max-w-md font-fk-grotesk font-medium text-xl">
+        <div className="max-w-md font-fk-grotesk mt-3 md:mt-0 font-medium text-[17px]/5 xl:text-xl">
           Turn bold ideas into impactful brand experiences with the handiwork
           and help of our collective bunch.
         </div>
       </div>
       <div>
-        <div className="text-5xl/15 font-medium font-fk-display max-w-[590px] text-left relative">
+        <div className="text-xl font-semibold  font-fk-display max-w-[590px] text-center xl:text-left mt-3 xl:mt-0 xl:text-5xl/15 xl:font-medium">
           Your company is ready for big moves and we are here for it.
-          {/* <div className="absolute top-18 text-[#9071FB]">
-            <Wavy />
-          </div> */}
         </div>
       </div>
     </div>
