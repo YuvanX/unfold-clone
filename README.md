@@ -1,24 +1,22 @@
-# 🖥️ Unfold UI Clone
+# Unfold UI Clone
 
-This is a **frontend clone** of the homepage of the [Unfold] website, built to enhance my skills in **Tailwind CSS** and **Framer Motion**. The goal was to replicate the sleek and interactive design using modern frontend technologies.
+This project is a **frontend clone** of the homepage of the Unfold website. It was built to strengthen my frontend development skills with **Tailwind CSS** and **Framer Motion**, focusing on replicating a modern, sleek, and interactive design using contemporary tools and best practices.
 
 ![Unfold UI Clone Preview](/public/thumbnail.png)
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🎨 Fully responsive layout
-- ⚡ Smooth animations with Motion
-- 💅 Styled completely using Tailwind CSS
-- 🧱 Modular, clean React component architecture
-
----
-
-## 🛠 Tech Stack
-
-- **Tailwind CSS**
-- **Framer Motion**
-- **Next.js**
+- Fully responsive layout across devices
+- Smooth and elegant animations powered by Framer Motion
+- Styled entirely using utility-first Tailwind CSS
+- Modular, maintainable React component structure
 
 ---
+
+## Tech Stack
+
+- **Next.js** – React framework for server-side rendering and routing
+- **Tailwind CSS** – Utility-first CSS framework for rapid UI development
+- **Motion** – Library for animating React components
