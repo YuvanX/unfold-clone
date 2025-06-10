@@ -1,8 +1,8 @@
 export const Online = () => {
   return (
-    <div className="mx-50 mt-20">
-      <button className="flex items-center px-5 py-5 text-white bg-[#21242C] rounded-full gap-x-3">
-        <div className="w-8 h-8">
+    <div className="xl:mx-50 mx-10 mt-5 xl:mt-20">
+      <button className="flex items-center py-2.5 px-3 xl:px-5 xl:py-5 text-white bg-[#21242C] rounded-full gap-x-2 xl:gap-x-3">
+        <div className="w-[21px] h-[21px] xl:w-8 xl:h-8">
           <svg
             width=" 100%"
             height=" 100%"
@@ -50,11 +50,11 @@ export const Online = () => {
             </defs>
           </svg>
         </div>
-        <div className="capitalize font-fk-grotesk fomt-medium text-lg">online</div>
+        <div className="capitalize font-fk-grotesk fomt-medium text-[14px] xl:text-lg">online</div>
         <div className="text-green-300">&#9679;</div>
       </button>
 
-      <div className="text-xl font-semibold font-fk-grotesk mt-10 max-w-sm">Your company is ready for big moves and we are here for it. Turn bold ideas into an impactful brand.</div>
+      <div className="text-[16px] xl:text-xl font-semibold font-fk-grotesk mt-2 xl:mt-10 max-w-sm">Your company is ready for big moves and we are here for it. Turn bold ideas into an impactful brand.</div>
     </div>
   );
 };
