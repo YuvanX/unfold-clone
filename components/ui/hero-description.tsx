@@ -1,8 +1,8 @@
 export const HeroDescription = () => {
   return (
-    <div className="flex flex-col xl:flex-row xl:justify-between text-black h-40 mb-22 xl:mb-32 px-4 xl:mt-20 xl:px-20">
+    <div className="flex flex-col md:flex-row md:justify-between text-black xl:h-40 mb-22 xl:mb-32 px-4 md:px-8 xl:mt-20 xl:px-20">
       <div className="flex flex-col justify-between">
-        <div className="flex flex-col gap-y-2 items-center xl:flex-row xl:gap-x-4">
+        <div className="flex flex-col gap-y-2 items-center md:flex-row md:gap-x-4">
           <div className="w-6 h-6 xl:w-8 xl:h-8">
             <svg
               width=" 100%"
@@ -59,13 +59,13 @@ export const HeroDescription = () => {
             Servicing Earth
           </div>
         </div>
-        <div className="max-w-md font-fk-grotesk mt-3 md:mt-0 font-medium text-[17px]/5 xl:text-xl">
+        <div className="max-w-md md:max-w-[340px] font-fk-grotesk mt-3 md:mt-0 font-medium text-[17px]/5 xl:text-xl">
           Turn bold ideas into impactful brand experiences with the handiwork
           and help of our collective bunch.
         </div>
       </div>
       <div>
-        <div className="text-xl font-semibold  font-fk-display max-w-[590px] text-center xl:text-left mt-3 xl:mt-0 xl:text-5xl/15 xl:font-medium">
+        <div className="text-xl font-semibold  font-fk-display md:text-[22px] md:max-w-[300px] xl:max-w-[590px] text-center md:text-left mt-3 xl:mt-0 xl:text-5xl/15 xl:font-medium">
           Your company is ready for big moves and we are here for it.
         </div>
       </div>
