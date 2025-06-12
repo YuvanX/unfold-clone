@@ -7,7 +7,7 @@ export const Banner = ({ text, className }: { text: string[], className?: string
 
    
   return (
-    <div className={clsx("bg-[#F6FA5E]  my-5 py-5 text-[23px] xl:py-10  xl:my-32 xl:text-5xl", className)}>
+    <div className={clsx("bg-[#F6FA5E]  my-5 py-5 text-[23px] md:my-15 xl:py-10 xl:my-32 xl:text-5xl", className)}>
       <motion.div
         animate={{ x: ["0%", "-100%"] }}
         transition={{ duration: 10, ease: "linear", repeat: Infinity }}
