@@ -15,7 +15,7 @@ import { SafePal } from "@/components/ui/safe-pal";
 export default function Home() {
   return (
     <div className="relative overflow-hidden">
-      <div className="bg-[#E8F0F9] pb-5 xl:pb-20 rounded-p-2xl xl:rounded-b-[60px] no-scrollbar">
+      <div className="bg-[#E8F0F9] pb-5 xl:pb-20 rounded-p-2xl md:rounded-b-4xl xl:rounded-b-[60px] no-scrollbar">
         <NavBar />
         <HeroSection />
         <HeroDescription />
@@ -30,7 +30,7 @@ export default function Home() {
         <Grid />
       </div>
       <Banner
-        className="text-white !bg-transparent text-[42px] xl:text-9xl"
+        className="text-white !bg-transparent text-[42px] md:text-[91px] xl:text-9xl"
         text={["We make things more yummy.", "We make things more yummy."]}
       />
       <About />
