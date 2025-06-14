@@ -13,10 +13,10 @@ export const LetsChat = () => {
       }}
       onHoverStart={() => setIsHovered(true)}
       onHoverEnd={() => setIsHovered(false)}
-      className="relative bg-[#f6fa5e] rounded-xl  flex items-center justify-between p-4  text-black font-fk-display mx-4 xl:mx-20 cursor-pointer  xl:rounded-[40px] xl:p-20"
+      className="relative bg-[#f6fa5e] rounded-xl flex items-center justify-between p-4  text-black font-fk-display mx-4 md:mx-10 md:my-14 xl:mx-20 cursor-pointer md:p-10 md:rounded-[40px] xl:p-20"
     >
-      <m.div className="xl:leading-50 max-w-[250px] xl:max-w-full">
-        <div className="capitalize text-[42px] xl:text-[180px] whitespace-nowrap">
+      <m.div className=" max-w-[250px] md:max-w-full md:leading-30 xl:leading-50">
+        <div className="capitalize text-[42px md:text-[91px] md:font-semibold xl:text-[180px] whitespace-nowrap">
           let's chat
         </div>
         <div className="text-[20px]/5 xl:text-[33px]">
@@ -35,7 +35,7 @@ export const LetsChat = () => {
             className=" absolute right-1 top-0"
           />
         ) : (
-          <div className="bg-white w-[54px] h-[54px] xl:w-64 xl:h-64 rounded-full flex items-center justify-center p-3 xl:p-10">
+          <div className="bg-white w-[54px] h-[54px] md:w-[118px] md:h-[118px] xl:w-64 xl:h-64 rounded-full flex items-center justify-center p-3 md:p-7 xl:p-10">
             <svg
               width=" 100%"
               height=" 100%"

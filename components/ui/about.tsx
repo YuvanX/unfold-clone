@@ -14,7 +14,7 @@ export const About = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-evenly capitalize font-fk-display text-lg md:text-[14px] md:font-semibold xl:text-xl font-medium gap-y-2 md:gap-y-5 xl:gap-y-10 mt-5 xl:mt-0">
+      <div className="flex flex-col justify-evenly capitalize font-fk-display text-lg font-medium gap-y-2 mt-5 md:gap-y-5 md:text-[14px] md:font-semibold xl:text-xl xl:gap-y-10  xl:mt-0">
         <div className="leading-5">
           <div>dirbble</div>
           <div>instagram</div>
