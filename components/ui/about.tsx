@@ -1,7 +1,7 @@
 export const About = () => {
   return (
-    <div className="flex flex-wrap xl:flex-nowrap text-white mx-10 xl:mx-52  justify-between xl:my-20 my-5 gap-x-32">
-      <div className="flex flex-col font-fk-display text-[20px]/6 xl:text-5xl/14 font-medium max-w-4xl text-start">
+    <div className="flex flex-wrap md:flex-nowrap text-white mx-10 md:mx-20 xl:mx-52  justify-between xl:my-20 my-5 md:gap-x-5 gap-x-32">
+      <div className="flex flex-col font-fk-display text-[20px]/6 xl:text-5xl/14 font-medium max-w-4xl md:max-w-sm md:text-[22px] text-start">
         <div className="mb-10 mt-5">
           We’re Unfold. A collective bunch working on incredible projects and
           building enduring partnerships that extend well beyond the
@@ -14,7 +14,7 @@ export const About = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-evenly capitalize font-fk-display text-lg xl:text-xl font-medium gap-y-2 xl:gap-y-10 mt-5 xl:mt-0">
+      <div className="flex flex-col justify-evenly capitalize font-fk-display text-lg md:text-[14px] md:font-semibold xl:text-xl font-medium gap-y-2 md:gap-y-5 xl:gap-y-10 mt-5 xl:mt-0">
         <div className="leading-5">
           <div>dirbble</div>
           <div>instagram</div>
