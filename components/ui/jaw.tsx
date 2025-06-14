@@ -28,7 +28,6 @@ export const Jaw = () => {
                         <div className="capitalize leading-6 text-lg xl:leading-12 md:text-[14px] xl:text-2xl">design systems</div>
                         <div className="capitalize leading-6 text-lg xl:leading-12 md:text-[14px] xl:text-2xl">prototyping</div>
                     </div>
-
                 </div>
             </div>
         </div>

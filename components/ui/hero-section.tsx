@@ -21,7 +21,6 @@ export const HeroSection = () => {
               src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4%2F6657fa4d1432e66c43c27103_tK80bh-transcode.mp4"
               autoPlay
               loop
-              
             >
             </video>
           </span>
