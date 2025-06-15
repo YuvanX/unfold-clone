@@ -11,6 +11,7 @@ import { NavBar } from "@/components/ui/navbar";
 import { Online } from "@/components/ui/online";
 import { Partner } from "@/components/ui/partners";
 import { SafePal } from "@/components/ui/safe-pal";
+import { Testimonials } from "@/components/ui/testimonials";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <HeroSection />
         <HeroDescription />
         <SafePal />
+        <Testimonials />
         <Partner />
         <Banner
           className="text-black"
