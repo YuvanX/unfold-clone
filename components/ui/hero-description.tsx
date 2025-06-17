@@ -11,7 +11,7 @@ export const HeroDescription = () => {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g clip-path="url(#clip0_3426_100906)">
+              <g clipPath="url(#clip0_3426_100906)">
                 <path
                   d="M21.9259 11.24C21.9259 16.95 17.2959 21.58 11.5859 21.58C5.87586 21.58 1.25586 16.95 1.25586 11.24H21.9259Z"
                   stroke="currentColor"

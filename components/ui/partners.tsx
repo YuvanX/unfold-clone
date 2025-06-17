@@ -1,5 +1,6 @@
 "use client";
 
+import { firstColImageData, fourthColImageData, secondColImageData, thirdColImageData } from "@/libs/utils/image-data";
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
 
@@ -61,247 +62,28 @@ export const Partner = () => {
               style={{ y: y1 }}
               className="flex flex-col gap-y-2 xl:gap-y-20  shrink-0 grow-0"
             >
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d60042c41c51225010_figma.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d50042c48800224fff_gofundme.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d51bba1e19a5ebbc6d_stellar.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d57d1035dac0048dfa_treecard.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d527bda7041a3ddcc9_lob.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5281895bd74dca61f_weebly.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5732b62e5da9f2068_peacock.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d53d6a0b12360c4041_payjunction.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5c33a775dad67aa11_tebra.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f5382c0bd7f7786f082abc_rumble.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5e7eeb09f63fa09d3_solana.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d540c54f69767830f2_remax.svg"
-                alt="image-1"
-              />
+              {firstColImageData.map((m) => <ImageBuilder src={m.src} key={m.src} alt={m.alt} />)}
             </motion.div>
 
             <motion.div
               style={{ y: y2 }}
               className="flex flex-col gap-y-20  shrink-0 grow-0"
             >
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d50042c48800224fff_gofundme.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d60042c41c51225010_figma.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5897d62433f1edba4_facebook.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5d3c2200b4b2c1940_bowlero.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f51a8ef953732be500f8f5_lamar.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d565469f6f03fefe05_invision.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5c89f67525b652764_genesysgo.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5e60e92093153987e_adobe.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5f58db3c81d861a18_discord.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d533aa5ab058ecf596_ripple.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5c89f670acb652765_merck.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d54f087037b8dd927e_okta.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5e2ba456a616835fd_paypal.svg"
-                loading="lazy"
-                alt="image-1"
-              />
+              {secondColImageData.map((m) => <ImageBuilder src={m.src} key={m.src} alt={m.alt} />)}
             </motion.div>
 
             <motion.div
               style={{ y: y3 }}
               className="flex flex-col gap-y-20  shrink-0 grow-0"
             >
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d51bba1e19a5ebbc6d_stellar.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d57d1035dac0048dfa_treecard.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d527bda7041a3ddcc9_lob.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5281895bd74dca61f_weebly.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5732b62e5da9f2068_peacock.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d53d6a0b12360c4041_payjunction.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5c33a775dad67aa11_tebra.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f5382c0bd7f7786f082abc_rumble.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5e7eeb09f63fa09d3_solana.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d540c54f69767830f2_remax.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5e2ba456a616835fd_paypal.svg"
-                loading="lazy"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d54f087037b8dd927e_okta.svg"
-                alt="image-1"
-              />
+              {thirdColImageData.map((m) => <ImageBuilder src={m.src} key={m.src} alt={m.alt} />)}
             </motion.div>
 
             <motion.div
               style={{ y: y4 }}
               className="flex flex-col gap-y-20  shrink-0 grow-0"
             >
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d57d1035dac0048dfa_treecard.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d51bba1e19a5ebbc6d_stellar.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d50042c48800224fff_gofundme.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d60042c41c51225010_figma.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5897d62433f1edba4_facebook.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5d3c2200b4b2c1940_bowlero.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f51a8ef953732be500f8f5_lamar.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d565469f6f03fefe05_invision.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5c89f67525b652764_genesysgo.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5e60e92093153987e_adobe.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5f58db3c81d861a18_discord.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d533aa5ab058ecf596_ripple.svg"
-                alt="image-1"
-              />
-              <img
-                src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/63f4e4d5c89f670acb652765_merck.svg"
-                alt="image-1"
-              />
+              {fourthColImageData.map((m) => <ImageBuilder key={m.src} src={m.src} alt={m.alt} />)}
             </motion.div>
           </div>
         </div>
@@ -309,3 +91,8 @@ export const Partner = () => {
     </div>
   );
 };
+
+
+const ImageBuilder = ({ src, alt }: { src: string, alt: string }) => {
+  return <img src={src} alt={alt} />
+}

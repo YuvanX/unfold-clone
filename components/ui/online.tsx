@@ -10,32 +10,32 @@ export const Online = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clip-path="url(#clip0_3426_100906)">
+            <g clipPath="url(#clip0_3426_100906)">
               <path
                 d="M21.9259 11.24C21.9259 16.95 17.2959 21.58 11.5859 21.58C5.87586 21.58 1.25586 16.95 1.25586 11.24H21.9259Z"
                 stroke="currentColor"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
               ></path>
               <path
                 d="M21.7558 8.95C20.8658 4.14 16.6558 0.5 11.5958 0.5C6.53579 0.5 2.31579 4.14 1.43579 8.95"
                 stroke="currentColor"
-                stroke-miterlimit="10"
-                stroke-linecap="square"
+                strokeMiterlimit="10"
+                strokeLinecap="square"
               ></path>
               <path
                 d="M2.88574 5.26001H20.2957"
                 stroke="currentColor"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
               ></path>
               <path
                 d="M11.5959 0.5V9.23"
                 stroke="currentColor"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
               ></path>
               <path
                 d="M6.22583 9.22999C6.22583 4.60999 8.62583 0.859985 11.5958 0.859985C14.5658 0.859985 16.9558 4.60999 16.9558 9.22999"
                 stroke="currentColor"
-                stroke-miterlimit="10"
+                strokeMiterlimit="10"
               ></path>
             </g>
             <defs>
