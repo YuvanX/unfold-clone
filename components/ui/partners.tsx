@@ -1,17 +1,22 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "motion/react";
+import { useRef } from "react";
 
 export const Partner = () => {
-  const { scrollYProgress } = useScroll();
+  const containerRef = useRef(null)
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start end", "end start"],
+  });
 
-  const y1 = useTransform(scrollYProgress, [0, 1], [0, -900]);
-  const y2 = useTransform(scrollYProgress, [0, 1], [0, 900]);
-  const y3 = useTransform(scrollYProgress, [0, 1], [0, -900]);
-  const y4 = useTransform(scrollYProgress, [0, 1], [0, 900]);
+  const y1 = useTransform(scrollYProgress, [0, 1], [-50, 50]);
+  const y2 = useTransform(scrollYProgress, [0, 1], [50, -50]);
+  const y3 = useTransform(scrollYProgress, [0, 1], [-50, 50]);
+  const y4 = useTransform(scrollYProgress, [0, 1], [50, -50]);
 
   return (
-    <div className="min-h-[200px] text-black bg-white rounded-xl px-4 py-2 mx-2  md:mx-8 md:rounded-2xl md:min-h-[444px]  xl:rounded-[40px] xl:mx-20 xl:min-h-screen">
+    <div ref={containerRef} className="min-h-[200px] text-black bg-white rounded-xl px-4 py-2 mx-2  md:mx-8 md:rounded-2xl md:min-h-[444px]  xl:rounded-[40px] xl:mx-20 xl:min-h-screen">
       <div className="flex items-center justify-between md:pl-10 xl:pl-20 xl:pr-10 xl:py-12">
         <div className="flex flex-col md:h-[400px]  xl:h-[800px] justify-between">
           <div className="capitalize text-[32px]/7 md:text-[68px]/15 md:pt-5 xl:text-9xl font-fk-display font-medium">
@@ -50,8 +55,8 @@ export const Partner = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#21242C] w-2/3 max-h-[320px] md:min-h-[444px] xl:min-w-[600px] xl:min-h-[900px] xl:max-h-[900px] rounded-xl xl:rounded-[40px]  overflow-hidden md:my-4 md:mr-3 md:rounded-3xl">
-          <div className="flex -rotate-30 gap gap-x-10">
+        <div className="bg-[#21242C] w-2/3 max-h-[320px] md:min-h-[444px] xl:min-w-[600px] xl:min-h-[900px] xl:max-h-[900px] rounded-xl xl:rounded-[40px] overflow-hidden md:my-4 md:mr-3 md:rounded-3xl">
+          <div className="flex -rotate-30 gap gap-x-5">
             <motion.div
               style={{ y: y1 }}
               className="flex flex-col gap-y-2 xl:gap-y-20  shrink-0 grow-0"
