@@ -7,6 +7,7 @@ export const LoadingAnimation = () => {
     <div className="flex gap-x-1">
       {[0, 1, 2].map((i) => (
         <motion.div
+        key={i}
           className="w-2 h-2 rounded-full bg-[#32F6C7]"
           animate={{ y: [0, -8, 0] }}
           transition={{

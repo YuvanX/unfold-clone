@@ -42,7 +42,7 @@ export const Testimonials = () => {
           <Card
             testimonial={`"In the top 1% of companies I've ever worked with when it comes to people caring about project"`}
             reviewer="Yuvan from nuvessi"
-            icon={FiActivity}
+            icon="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/665a014030cda3f1845a8562_image_2024-05-31_12-34-52.png"
           />
         </motion.div>
 
@@ -65,7 +65,7 @@ export const Testimonials = () => {
           <Card
             testimonial={`"Unfold's done in a month and a half what we've been trying do in the last year and a half!"`}
             reviewer="Isha from nuvessi"
-            icon={FiActivity}
+            icon="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/665a01571b3134a64425d44a_image_2024-05-31_12-35-12-p-500.png"
           />
         </motion.div>
 
@@ -87,8 +87,8 @@ export const Testimonials = () => {
         >
           <Card
             testimonial={`"When the Data Scientists are saying the UX/UI looks good... that's a BIG deal(rarely happens). 👏"`}
-            reviewer="Abhi from nuvessi"
-            icon={FiActivity}
+            reviewer="Honey from nuvessi"
+            icon="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/665a01690c508b5bebac1311_image_2024-05-31_12-38-04-p-500.png"
           />
         </motion.div>
 
@@ -111,7 +111,7 @@ export const Testimonials = () => {
           <Card
             testimonial={`"Huge thanks to the unfold team. Really proud of this one"`}
             reviewer="Abhi from nuvessi"
-            icon={FiActivity}
+            icon="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/665a01757508c661ca1da843_image_2024-05-31_12-35-52.png"
           />
         </motion.div>
 
@@ -134,7 +134,7 @@ export const Testimonials = () => {
           <Card
             testimonial={`"Your designers bring so many mind-opemning ideas yet tangible designs to the project. I'm very impressed"`}
             reviewer="Alex from nuvessi"
-            icon={FiActivity}
+            icon="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/665a018147f26450b8d1c326_image_2024-05-31_12-36-23.png"
           />
         </motion.div>
       </div>
@@ -161,22 +161,22 @@ export const Testimonials = () => {
           <Card
             testimonial={`"In the top 1% of companies I've ever worked with when it comes to people caring about project"`}
             reviewer="Yuvan from nuvessi"
-            icon={FiActivity}
+            icon="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/665a018147f26450b8d1c326_image_2024-05-31_12-36-23.png"
           />
           <Card
             testimonial={`"Unfold's done in a month and a half what we've been trying do in the last year and a half!"`}
             reviewer="Isha from nuvessi"
-            icon={FiActivity}
+            icon="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/665a018147f26450b8d1c326_image_2024-05-31_12-36-23.png"
           />
           <Card
             testimonial={`"When the Data Scientists are saying the UX/UI looks good... that's a BIG deal(rarely happens). 👏"`}
             reviewer="Abhi from nuvessi"
-            icon={FiActivity}
+            icon="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/665a018147f26450b8d1c326_image_2024-05-31_12-36-23.png"
           />
          <Card
             testimonial={`"Huge thanks to the unfold team. Really proud of this one"`}
-            reviewer="Abhi from nuvessi"
-            icon={FiActivity}
+            reviewer="Honey from nuvessi"
+            icon="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/665a018147f26450b8d1c326_image_2024-05-31_12-36-23.png"
           />
       </div>
       </div>
@@ -190,15 +190,15 @@ const Card = ({
   reviewer,
 }: {
   testimonial: string;
-  icon: IconType;
+  icon: string;
   reviewer: string;
 }) => {
-  const Icon = icon;
+ 
   return (
     <div className="flex flex-col gap-y-5 xl:gap-y-2 mx-5 my-2 rounded-lg xl:rounded-4xl bg-white text-black font-fk-grotesk px-4 py-3 xl:px-10 xl:py-8 max-w-xl">
       <div className="font-fk-grotesk text-[16px] xl:text-xl xl:font-semibold">{testimonial}</div>
       <div className="flex flex-col  xl:flex-row xl:items-center gap-x-2">
-        <Icon />
+        <Image src={icon} alt="image" width={20} height={20} className="rounded-full"/>
         <div className="text-sm">{reviewer}</div>
       </div>
     </div>
