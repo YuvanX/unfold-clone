@@ -28,7 +28,7 @@ export const SafePal = () => {
               alt="solana image"
             />
           </div>
-          <div className=" h-[150px] md:h-[300px] xl:h-[605px] md:max-w-[15%] ">
+          <div className=" h-[150px] md:h-[300px] xl:h-[605px] md:max-w-[15%]">
             <img
               src="https://cdn.prod.website-files.com/63dffdbf1693d14a2308d481/66566f3a57dda519020fda82_lamar.png"
               className="rounded-lg w-full  h-full md:rounded-3xl xl:rounded-4xl object-cover"

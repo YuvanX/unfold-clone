@@ -15,7 +15,7 @@ import { Testimonials } from "@/components/ui/testimonials";
 
 export default function Home() {
   return (
-    <div className="relative overflow-hidden bg-black">
+    <div className="relative overflow-hidden bg-black scroll-smooth">
       <div className="bg-[#E8F0F9] pb-5 xl:pb-20 rounded-p-2xl md:rounded-b-4xl xl:rounded-b-[60px] no-scrollbar">
         <NavBar />
         <HeroSection />
