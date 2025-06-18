@@ -8,7 +8,7 @@ export const HeroSection = () => {
           className="w-28 md:w-[88px] xl:w-44"
         />
         <div className="uppercase text-[10px] md:text-[12px] mr-2  font-medium bg-[#F6FA5E]  rounded-b-full w-28 xl:w-56 cursor-pointer font-fk-display flex justify-center items-center h-8 md:h-13 xl:h-28 xl:mr-10 xl:text-lg">
-          Let's chat
+          Let&apos;s chat
         </div>
       </div>
       <div className="inline-flex font-fk-display text-[58px]/12  font-medium py-8 text-black  tracking-tighter md:text-[127px]/25 
