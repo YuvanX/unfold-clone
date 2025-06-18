@@ -26,8 +26,8 @@ export const Testimonials = () => {
   const x5 = useTransform(scrollYProgress, [0, 1], [-400, 100]);
   const y5 = useTransform(scrollYProgress, [0, 1], [250, -50]);
 
-  const x6 = useTransform(scrollYProgress, [0, 1], [-400, 200])
- 
+  const x6 = useTransform(scrollYProgress, [0, 1], [-400, 200]);
+
   const x7 = useTransform(scrollYProgress, [0, 1], [-400, 100]);
   const y7 = useTransform(scrollYProgress, [0, 1], [200, 200]);
 
@@ -47,11 +47,10 @@ export const Testimonials = () => {
   const r8 = useTransform(scrollYProgress, [0, 1], [0, 30]);
   const r9 = useTransform(scrollYProgress, [0, 1], [0, -10]);
 
-
   return (
     <div
       ref={ref}
-      className="min-h-screen flex justify-center items-center text-black relative mt-20 mb-10 xl:mt-40 xl:mb-80"
+      className="xl:min-h-screen flex justify-center items-center text-black relative mt-20 mb-10 md:my-30 xl:mt-40 xl:mb-80"
     >
       <div className="hidden xl:block">
         <motion.div
@@ -159,7 +158,6 @@ export const Testimonials = () => {
         </motion.div>
       </div>
 
-
       <div className="flex flex-col items-center ">
         <div className="gap-x-2 px-5 py-2 bg-white rounded-full flex items-center">
           <span className="text-[14px] xl:text-[16px] font-fk-grotesk">
@@ -168,7 +166,7 @@ export const Testimonials = () => {
           <LoadingAnimation />
         </div>
 
-        <div className="text-[25px]/6 mx-10 xl:mx-0 xl:text-[99px] font-fk-display text-center xl:leading-25 max-w-5xl mt-4">
+        <div className="text-[25px]/6 mx-10 md:text-6xl xl:mx-0 xl:text-[99px] font-fk-display text-center xl:leading-25 max-w-5xl mt-4">
           Our Clients Can’t Say Enough About Us.
         </div>
 
@@ -188,17 +186,17 @@ export const Testimonials = () => {
             reviewer="Abhi from nuvessi"
             icon="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/665a01757508c661ca1da843_image_2024-05-31_12-35-52.png"
           />
-           <Card
+          <Card
             testimonial={`"Unfold's done in a month and a half what we've been trying do in the last year and a half!"`}
             reviewer="Isha from nuvessi"
             icon="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/665a01571b3134a64425d44a_image_2024-05-31_12-35-12-p-500.png"
           />
-         <Card
+          <Card
             testimonial={`"Huge thanks to the unfold team. Really proud of this one"`}
             reviewer="Abhi from nuvessi"
             icon="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/665a01757508c661ca1da843_image_2024-05-31_12-35-52.png"
           />
-      </div>
+        </div>
       </div>
     </div>
   );
@@ -213,12 +211,19 @@ const Card = ({
   icon: string;
   reviewer: string;
 }) => {
- 
   return (
-    <div className="flex flex-col gap-y-5 xl:gap-y-2 mx-5 my-2 rounded-lg xl:rounded-4xl bg-white text-black font-fk-grotesk px-4 py-3 xl:px-10 xl:py-8 max-w-xl">
-      <div className="font-fk-grotesk text-[16px] xl:text-xl xl:font-semibold">{testimonial}</div>
+    <div className="flex flex-col gap-y-5 xl:gap-y-2 mx-5 my-2 md:mx-10 md:my-3 rounded-lg xl:rounded-4xl bg-white text-black font-fk-grotesk px-4 py-3 xl:px-10 xl:py-8 xl:max-w-xl md:max-w-full md:p-8">
+      <div className="font-fk-grotesk text-[16px] xl:text-xl xl:font-semibold">
+        {testimonial}
+      </div>
       <div className="flex flex-col  xl:flex-row xl:items-center gap-x-2">
-        <Image src={icon} alt="image" width={20} height={20} className="rounded-full"/>
+        <Image
+          src={icon}
+          alt="image"
+          width={20}
+          height={20}
+          className="rounded-full"
+        />
         <div className="text-sm">{reviewer}</div>
       </div>
     </div>
