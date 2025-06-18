@@ -57,31 +57,31 @@ export const Partner = () => {
           </div>
         </div>
         <div className="bg-[#21242C] w-2/3 max-h-[320px] md:min-h-[444px] xl:min-w-[600px] xl:min-h-[900px] xl:max-h-[900px] rounded-xl xl:rounded-[40px] overflow-hidden md:my-4 md:mr-3 md:rounded-3xl">
-          <div className="flex -rotate-30 gap gap-x-5">
+          <div className="flex -rotate-30 gap gap-x-2 xl:gap-x-5">
             <motion.div
               style={{ y: y1 }}
-              className="flex flex-col gap-y-2 xl:gap-y-20  shrink-0 grow-0"
+              className="flex flex-col gap-y-5 md:gap-y-10 xl:gap-y-20  shrink-0 grow-0"
             >
               {firstColImageData.map((m) => <ImageBuilder src={m.src} key={m.src} alt={m.alt} />)}
             </motion.div>
 
             <motion.div
               style={{ y: y2 }}
-              className="flex flex-col gap-y-20  shrink-0 grow-0"
+              className="flex flex-col gap-y-5 md:gap-y-10 xl:gap-y-20 shrink-0 grow-0"
             >
               {secondColImageData.map((m) => <ImageBuilder src={m.src} key={m.src} alt={m.alt} />)}
             </motion.div>
 
             <motion.div
               style={{ y: y3 }}
-              className="flex flex-col gap-y-20  shrink-0 grow-0"
+              className="flex flex-col gap-y-5 md:gap-y-10 xl:gap-y-20  shrink-0 grow-0"
             >
               {thirdColImageData.map((m) => <ImageBuilder src={m.src} key={m.src} alt={m.alt} />)}
             </motion.div>
 
             <motion.div
               style={{ y: y4 }}
-              className="flex flex-col gap-y-20  shrink-0 grow-0"
+              className="flex flex-col gap-y-5 md:gap-y-10 xl:gap-y-20  shrink-0 grow-0"
             >
               {fourthColImageData.map((m) => <ImageBuilder key={m.src} src={m.src} alt={m.alt} />)}
             </motion.div>
@@ -94,5 +94,5 @@ export const Partner = () => {
 
 
 const ImageBuilder = ({ src, alt }: { src: string, alt: string }) => {
-  return <img src={src} alt={alt} />
+  return <img src={src} alt={alt} className="w-20 md:w-34 xl:w-full"/>
 }
