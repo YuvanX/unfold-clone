@@ -17,10 +17,10 @@ export const LetsChat = () => {
     >
       <m.div className=" max-w-[250px] md:max-w-full md:leading-30 xl:leading-50">
         <div className="capitalize text-[42px md:text-[91px] md:font-semibold xl:text-[180px] whitespace-nowrap">
-          let's chat
+          let&apos;s chat
         </div>
         <div className="text-[20px]/5 xl:text-[33px]">
-          Want to grab a virtual coffee and talk about your project?
+          Want to grab a virtual coffee and talk about your project&#63;
         </div>
       </m.div>
 

@@ -10,7 +10,7 @@ export const Grid = () => {
         <div>
           <div className="font-fk-display mt-3 text-[22px] xl:text-5xl">You First</div>
           <div className="font-fk-grotesk text-[17px]/5 xl:text-xl mt-1.5 xl:mt-5">
-            You’re the reason we’re here, full stop. We value collaboration
+            You&apos;re the reason we&apos;re here, full stop. We value collaboration
             above ego and tackle the extra mile to achieve your vision with a
             can-do attitude.
           </div>
@@ -41,8 +41,8 @@ export const Grid = () => {
             <div>
               <div className="xl:text-5xl mt-3 text-[22px] font-fk-display">Hide Nothing</div>
               <div className="xl:text-xl font-fk-grotesk text-[17px]/5 mt-1.5 xl:mt-5">
-                “Transparency” isn’t a buzzword for us — it’s how we roll.
-                You’re behind-the-scenes with our team, following our every
+                &#34;Transparency&#34; isn&apos;t a buzzword for us — it&apos;s how we roll.
+                You&apos;re behind-the-scenes with our team&#44; following our every
                 move.
               </div>
             </div>

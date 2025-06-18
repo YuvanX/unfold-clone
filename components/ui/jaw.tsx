@@ -4,7 +4,7 @@ export const Jaw = () => {
             <img src="https://cdn.prod.website-files.com/63dae19244d432799bf5baa4/665114658293e25fc21ed174_jamm-logo.svg" alt="jaw" className="md:w-[163px] xl:w-[350px] w-[200px]"/>
             <div className="flex flex-col md:flex-row justify-between xl:items-end">
                 <div className="text-[23px]/6 font-fk-display font-semibold xl:font-medium max-w-sm mt-10 md:max-w-[200px] md:text-[36px]/10 xl:text-7xl xl:leading-20">
-                    Unfold's subscription service
+                    Unfold&apos;s subscription service
                 </div>
                 <div className="grid grid-cols-2 xl:grid-cols-3 xl:gap-x-32 font-fk-display w-full md:w-1/2 mt-5">
                     <div >
