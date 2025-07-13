@@ -1,4 +1,4 @@
-'use client'
+
 import { About } from "@/components/ui/about";
 import { Banner } from "@/components/ui/banner";
 import { Beyond } from "@/components/ui/beyond";
