@@ -20,7 +20,7 @@ export const LetsChat = () => {
           let&apos;s chat
         </div>
         <div className="text-[20px]/5 xl:text-[33px]">
-          Want to grab a virtual coffee and talk about your project&#63;
+          Want to grab a virtual coffee and talk about your project&#63;  
         </div>
       </m.div>
 

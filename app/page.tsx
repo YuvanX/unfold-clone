@@ -1,3 +1,4 @@
+'use client'
 import { About } from "@/components/ui/about";
 import { Banner } from "@/components/ui/banner";
 import { Beyond } from "@/components/ui/beyond";
@@ -14,6 +15,7 @@ import { SafePal } from "@/components/ui/safe-pal";
 import { Testimonials } from "@/components/ui/testimonials";
 
 export default function Home() {
+
   return (
     <div className="relative overflow-hidden bg-black scroll-smooth">
       <div className="bg-[#E8F0F9] pb-5 xl:pb-20 rounded-p-2xl md:rounded-b-4xl xl:rounded-b-[60px] no-scrollbar">
@@ -25,7 +27,16 @@ export default function Home() {
         <Partner />
         <Banner
           className="text-black"
-          text={["more yummy", "you first", "cutting edge", "hide nothing","more yummy", "you first", "cutting edge", "hide nothing"]}
+          text={[
+            "more yummy",
+            "you first",
+            "cutting edge",
+            "hide nothing",
+            "more yummy",
+            "you first",
+            "cutting edge",
+            "hide nothing",
+          ]}
         />
         <Jaw />
         <Beyond />
